@@ -55,7 +55,7 @@ The following line creates a `backend.tf` that points to the TF_ADMIN_BUCKET as 
 
 ```
 cd terraform/infrastructure
-sed "s/<SET TO THE VALUE OF TF_ADMIN_BUCKET>/${TF_ADMIN_BUCKET}/" terraform/infrastructure/backend.tf.example > terraform/infrastructure/backend.tf
+sed "s/<SET TO THE VALUE OF TF_ADMIN_BUCKET>/${TF_ADMIN_BUCKET}/" backend.tf.example > backend.tf
 ```
 
 ## Run terraform
